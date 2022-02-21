@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilo.css">
+
+    <title>Registro Formulario</title>
+</head>
+
+<body>
+    <div class="hero">
+        <div class="form-box">
+            <div id="btn"></div>
+            <div class="button-box">
+                <button type="button" class="toggle-btn" onclick="login()">Iniciar Sesion</button>
+                <button type="button" class="toggle-btn" onclick="register()">Registrarse</button>
+            </div>
+            <div class="redes-sociales">
+                <img src="./imagenes/fb.png" alt="">
+                <img src="./imagenes/gp.png" alt="">
+                <img src="./imagenes/tw.png" alt="">
+            </div>
+            <form id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="Nombre de Usuario" required>
+                <input type="text" class="input-field" placeholder="Contraseña" required>
+                <input type="checkbox" class="chech-box"><span>Recordar Contraseña</span>
+                <button type="submit" class="submit-btn">Confirmar</button>
+            </form>
+            <form id="register" class="input-group">
+                <input type="text" class="input-field" placeholder="Nombre de Usuario" required>
+                <input type="email" class="input-field" placeholder="Email" required>
+                <input type="text" class="input-field" placeholder="Contraseña" required>
+                <input type="checkbox" class="chech-box"><span>Acepto los Terminos y Condiciones</span>
+                <button type="submit" class="submit-btn">Registrar</button>
+            </form>
+        </div>
+    </div>
+    <script src="/Registrarse/funciones.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Nike Carta Animada</title>
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="producto">
+            <img src="imagenes/shoes.png" id="imgFrente" alt="">
+            <img src="imagenes/shoes2.png" id="imgReverso" alt="">
+            <div class="producto-interior" id="productoCaja">
+                <div class="producto-frente">
+                    <div class="producto-top">
+                        <h1>Nike</h1>
+                    </div>
+                    <div class="producto-bottom">
+                        <p>Zapatillas de Running</p>
+                        <h2>Capa Air Max</h2>
+                        <h1>100<span>$</span></h1>
+                        <button type="button">Agregar a mi Carrito</button>
+                        <div class="elegir-color">
+                            <div class="elegir-producto">
+                                <img src="./imagenes/shoes-icon.png" alt="">
+                            </div>
+                            <div class="elegir-producto">
+                                <img src="./imagenes/shoes-icon2.png" onclick="flipRight()" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="producto-reverso">
+                    <div class="producto-top producto-top2">
+                        <h1>Nike</h1>
+                    </div>
+                    <div class="producto-bottom">
+                        <p>Zapatillas de Running</p>
+                        <h2>Capa Air Max</h2>
+                        <h1>100<span>$</span></h1>
+                        <button type="button">Agregar a mi Carrito</button>
+                        <div class="elegir-color">
+                            <div class="elegir-producto">
+                                <img src="./imagenes/shoes-icon.png" onclick="flipLeft()" alt="">
+                            </div>
+                            <div class="elegir-producto">
+                                <img src="./imagenes/shoes-icon2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="izquierda"></div>
+                <div class="derecha"></div>
+            </div>
+        </div>
+    </div>
+    <script src="funciones.js"></script>
+</body>
+
+</html>
